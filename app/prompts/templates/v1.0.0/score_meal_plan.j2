@@ -1,0 +1,20 @@
+Your task is to analyze the error and generate concise, actionable suggestions to address or resolve the issue.
+
+- Only one detailed and clear suggestion is needed per error.
+- Use examples if possible.
+
+# Model Schema
+{{ model_schema }}
+
+# Error details
+{{ error_details }}
+
+# Output format
+- Return your response strictly as a JSON array of strings.
+- Each string should contain a clear suggestion relevant to the given error.
+- MOST IMPORTANT - Response Pydantic Model Schema JSON is:
+[
+    "suggestion 1",
+    "suggestion 2",
+    ...
+]

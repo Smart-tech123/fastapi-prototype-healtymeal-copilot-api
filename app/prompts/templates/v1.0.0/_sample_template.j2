@@ -1,0 +1,11 @@
+Generate human summary.
+
+Details:
+    - gender: {{gender}}
+    - age: {{age}}
+{# This is optional field #}
+{% if full_name %}
+    - full_name: {{full_name}}
+{% endif %}
+
+Result should be in restricted JSON format.
